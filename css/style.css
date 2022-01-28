@@ -1,0 +1,180 @@
+@font-face {
+    font-family: Miratrix;
+    src: url('/fonts/Miratrix-Normal.otf') format("opentype");
+}
+@font-face {
+    font-family: Musticapro;
+    src: url('/fonts/MusticaproSemibold.otf') format("opentype");
+}
+
+body {
+    font-family: 'Musticapro';
+    color: #000;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #333333;
+}
+
+.brdr {
+    border: 1px solid #FF3366;
+}
+
+/* header */
+.header {
+    background: url(../img/wood1.png) no-repeat center;
+    height: 197px;
+}
+
+.menu {
+    margin: 103px 0 0 0;
+    background: #D4E2E5;
+    height: 56px;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu__item {
+    margin-top: 15px;
+}
+
+.menu__link {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 100%;
+    color: #000;
+}
+
+.header-img {
+}
+
+
+.section-logo {
+    height: 565px;
+    background: url(../img/header.png) no-repeat center;
+}
+
+
+
+
+
+.profile {
+    height: 260px;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.profile-description {
+    display: block;
+    width: 535px;
+    font-family: 'Musticapro';
+    color: #000;
+    font-size: 24px;
+    /* font-weight: normal; */
+    line-height: 100%;
+}
+
+
+
+
+/* section offer */
+.section-offer {
+    background-color: #F5F5F5;
+}
+
+.offer-block {
+    margin: 106px 0 106px;
+}
+
+.offer-block__img {
+
+}
+
+/* cards */
+.action-card {
+    margin: 60px 5px;
+}
+
+.card__text {
+    margin-bottom: 20px;
+}
+
+/* footer */
+.hr-line {
+    border: 1px solid #666666;
+}
+
+.footer {
+    height: 110px;
+    padding: 0 20px;
+}
+.footer__col {
+    width: auto;
+}
+.footer__item {
+    margin-right: 30px;
+}
+
+/* media */
+/* @media screen and (max-width: 992px) {
+    .header {
+        height: 100%;
+        text-align: center;
+    }
+    .logo {
+        margin: 10px auto;
+    }
+    .menu {
+        justify-content: center;
+    }
+    .header__btn {
+        justify-content: center;
+    }
+    .offer-block {
+        margin: 10px 0;
+    }
+    .section-offer {
+        text-align: center;
+    }
+    .cards {
+        text-align: center;
+    }
+    .action-card {
+        margin: 30px 5px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .menu__item {
+        margin-right: 10px;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .menu__list {
+        display: block!important;
+    }
+    .footer {
+        text-align: center;
+    }
+    .footer__col {
+        width: 100%;
+    }
+    .footer__menu {
+        display: block!important;
+    }
+    .footer__item {
+        margin: 0;
+    }
+} */
