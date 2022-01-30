@@ -205,11 +205,6 @@ h1 {
     }
 }
 @media screen and (max-width: 768px) {
-    .section-logo {
-        height: 212px;
-    }
-}
-@media screen and (max-width: 576px) {
     .menu {
         margin: 50px 0 0 0;
         background: #D4E2E5;
@@ -218,8 +213,11 @@ h1 {
     }
     .menu__item {
         margin-top: 19px;
-    }
+    }   
     .section-logo {
         height: 0;
     }
+}
+@media screen and (max-width: 576px) {
+
 }
